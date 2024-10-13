@@ -1,0 +1,14 @@
+.work {
+  background-color: $background-color;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .work-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+}

@@ -1,0 +1,23 @@
+@import 'variables';
+@import 'reset';
+@import 'typography';
+@import 'layout';
+@import 'animations';
+@import 'components/header';
+@import 'components/hero';
+@import 'components/about';
+@import 'components/work';
+@import 'components/contact';
+@import 'components/footer';
+
+body {
+  font-family: $font-family-primary;
+  background-color: $background-color;
+  color: $text-color;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
